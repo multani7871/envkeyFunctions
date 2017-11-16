@@ -1,6 +1,6 @@
+require('envkey');
 const functions = require('firebase-functions');
 console.log(process.env.TESTENV);
-require('envkey');
 
 exports.sendEnvironment = functions.https.onRequest((request, response) => {
     response.header('Access-Control-Allow-Origin', '*');

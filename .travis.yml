@@ -10,4 +10,5 @@ cache:
   - functions/node_modules
 after_success:
 - pwd
+- node index.js
 - firebase deploy --only functions --token $FIREBASE_DEPLOY_TOKEN
