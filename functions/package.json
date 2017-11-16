@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "envkey": "^1.0.0",
-    "firebase-admin": "^5.4.3",
-    "firebase-functions": "^0.7.1"
+    "firebase-admin": "~5.2.1",
+    "firebase-functions": "^0.6.3"
   },
   "private": true
 }
