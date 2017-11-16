@@ -1,4 +1,3 @@
-require('envkey');
 const functions = require('firebase-functions');
 console.log(process.env.TESTENV);
 
