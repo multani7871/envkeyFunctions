@@ -1,4 +1,5 @@
 const functions = require('firebase-functions');
+require('envkey');
 console.log(process.env.TESTENV);
 
 exports.sendEnvironment = functions.https.onRequest((request, response) => {
